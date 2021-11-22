@@ -1,0 +1,23 @@
+#headerStyle{
+    display: flex;
+    background-color: gray;
+    justify-content: space-between;
+
+
+
+}
+a{
+    margin-right: 5px;
+}
+footer{
+    display: flex;
+    background-color: gray;
+    height: 8rem;
+    
+}
+#mainStyle{
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem;
+    height: 30rem;
+}
