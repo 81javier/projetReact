@@ -2,8 +2,8 @@ const Header = () => {
     return <header id="headerStyle">
         <h1>Ecomerce</h1>
         <nav>
-            <a href="#">Nosotros</a>
-            <a href="#">Condiciones</a>
+            <a href="#">Productos</a>
+            <a href="#">Carrito</a>
         </nav>
         
     </header>

@@ -1,12 +1,13 @@
 
-import Header from './Header'
+import CartWidget from './CartWidget'
 import Footer from './Footer'
-import Main from './Main'
+import ItemListContainer from './ItemListContainer'
 
 
 const App = () => {
-    return <> <Header />
-              <Main  saludo="hola"/>
+    
+    return <> <CartWidget />
+              <ItemListContainer saludo="Bienvenidos"  />
               <Footer/>
     
     </>

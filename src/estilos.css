@@ -1,23 +1,91 @@
 #headerStyle{
+    padding: 3rem;
     display: flex;
-    background-color: gray;
+    background-color: rgb(16, 131, 151);
     justify-content: space-between;
+    border-radius: 6px;
+    box-shadow: 5px 5px;
+    margin-bottom: 12px;
 
 
 
 }
 a{
-    margin-right: 5px;
+    margin-left: 3rem;
+    text-decoration: none;
+    color: black;
+    border:3px solid black;
+    padding: 2px;
+    border-radius: 5px;
+    box-shadow: black 3px 3px;
+    background-color: blanchedalmond;
+
 }
 footer{
-    display: flex;
-    background-color: gray;
-    height: 8rem;
+    
+    background-color: cadetblue;
+    margin: 2px;
+    box-shadow: black 3px 3px;
+    border-radius: 5px;
+    height: 5rem;
+
+    
+    
+    
+    
     
 }
+footer nav {
+    justify-content: space-between;
+    display: flex;
+    height: 2rem;
+    padding: 2rem;
+    
+}
+footer nav a{
+    height: 1rem;
+    
+    
+    
+}
+
 #mainStyle{
     display: flex;
-    justify-content: space-between;
-    margin: 3rem;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 2rem;
     height: 30rem;
+    margin-bottom: 12px;
+    background-color: rgb(238, 234, 228);
+    box-shadow: black 3px 3px;
+    border-radius: 5px;
+}
+
+#seccion1{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+section div{
+    margin: 12px;
+    border-radius: 5px;
+    border:  2px solid black
+}
+
+#item1{
+    height: 10rem;
+    width: 10rem;
+    background-color: cornsilk;
+}
+#item2{
+    height: 10rem;
+    width: 10rem;
+    background-color: cornsilk;
+}
+#item3{
+    height: 10rem;
+    width: 10rem;
+    background-color: cornsilk;
 }
