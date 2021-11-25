@@ -7,7 +7,7 @@ import ItemListContainer from './ItemListContainer'
 const App = () => {
     
     return <> <CartWidget />
-              <ItemListContainer saludo="Bienvenidos"  />
+              <ItemListContainer greetin="Bienvenidos"  />
               <Footer/>
     
     </>

@@ -2,7 +2,7 @@ const Main = (prop) =>{
     
     return <main id="mainStyle">
         <h1>
-            {prop.saludo}
+            {prop.greetin}
         </h1>
         <h2>Productos</h2>
 <section id="seccion1">
