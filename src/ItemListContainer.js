@@ -1,4 +1,4 @@
-const ItemListContainer = (prop) =>{
+const Main = (prop) =>{
     
     return <main id="mainStyle">
         <h1>
@@ -25,4 +25,4 @@ const ItemListContainer = (prop) =>{
 
 
 
-export default ItemListContainer
+export default Main
