@@ -1,13 +1,18 @@
-
-import CartWidget from './CartWidget'
-import Footer from './Footer'
-import ItemListContainer from './ItemListContainer'
+import {useState , useEffect} from "react"
+import CartWidget from './componentes/CartWidget'
+import Footer from './componentes/Footer'
+import ItemListContainer from './componentes/ItemListContainer'
 
 
 const App = () => {
     
+
+    
+    
     return <> <CartWidget />
-              <ItemListContainer greetin="Bienvenidos"  />
+              <ItemListContainer greetin="Bienvenidos" />
+           
+              
               <Footer/>
     
     </>
